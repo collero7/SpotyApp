@@ -2,7 +2,7 @@
 
 <div *ngIf="!loading" class="animated fadeIn">
     <div class="row">
-        <div class="col-lg-1">
+        <div style="width: 11rem">
             <img [src]="artista.images | noimage" [alt]="artista.name" class="img-circle">
         </div>
 
@@ -12,7 +12,7 @@
                 <a [href]="artista.external_urls.spotify" target="_blank"> Ir a la página del artista</a>
             </p>
         </div>
-        <div class="col-4" style="text-align: right;">
+        <div class="col-lg-2" style="text-align: right;">
             <button routerLink="/search" class="btn btn-outline-danger">
                 Volver
             </button>

@@ -50,12 +50,12 @@ NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ul", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Inicio");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Search");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Buscar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -218,7 +218,7 @@ class ArtistaComponent {
     }
 }
 ArtistaComponent.ɵfac = function ArtistaComponent_Factory(t) { return new (t || ArtistaComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_spotify_service__WEBPACK_IMPORTED_MODULE_2__["SpotifyService"])); };
-ArtistaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ArtistaComponent, selectors: [["app-artista"]], decls: 2, vars: 2, consts: [[4, "ngIf"], ["class", "animated fadeIn", 4, "ngIf"], [1, "animated", "fadeIn"], [1, "row"], [1, "col-lg-1"], [1, "img-circle", 3, "src", "alt"], [1, "col"], ["target", "_blank", 3, "href"], [1, "col-4", 2, "text-align", "right"], ["routerLink", "/search", 1, "btn", "btn-outline-danger"], [1, "row", "mt-5"], [1, "table", "table-sm", "table-dark", "table-striped"], [4, "ngFor", "ngForOf"], [1, "img-thumb", 3, "src", "alt"], ["width", "100%", "height", "80", "frameborder", "0", "allowtransparency", "true", "allow", "encrypted-media", 3, "src"]], template: function ArtistaComponent_Template(rf, ctx) { if (rf & 1) {
+ArtistaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ArtistaComponent, selectors: [["app-artista"]], decls: 2, vars: 2, consts: [[4, "ngIf"], ["class", "animated fadeIn", 4, "ngIf"], [1, "animated", "fadeIn"], [1, "row"], [2, "width", "11rem"], [1, "img-circle", 3, "src", "alt"], [1, "col"], ["target", "_blank", 3, "href"], [1, "col-lg-2", 2, "text-align", "right"], ["routerLink", "/search", 1, "btn", "btn-outline-danger"], [1, "row", "mt-5"], [1, "table", "table-sm", "table-dark", "table-striped"], [4, "ngFor", "ngForOf"], [1, "img-thumb", 3, "src", "alt"], ["width", "100%", "height", "80", "frameborder", "0", "allowtransparency", "true", "allow", "encrypted-media", 3, "src"]], template: function ArtistaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ArtistaComponent_app_loading_0_Template, 1, 0, "app-loading", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ArtistaComponent_div_1_Template, 26, 7, "div", 1);
     } if (rf & 2) {
